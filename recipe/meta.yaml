@@ -27,6 +27,7 @@ requirements:
     - python-jsonpath >=0.7.1,<0.8.0
     - anyio >=3.7.0,<4.0.0
     - httpx >=0.24.1,<0.25.0
+    - sniffio >=1.1
 
 test:
   imports:
