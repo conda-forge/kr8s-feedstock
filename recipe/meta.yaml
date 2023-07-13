@@ -1,9 +1,5 @@
 {% set name = "kr8s" %}
-<<<<<<< HEAD
 {% set version = "0.8.5" %}
-=======
-{% set version = "0.8.4" %}
->>>>>>> d90e377951a5575c23f9c062971369f0fbd7dfe0
 
 package:
   name: {{ name|lower }}
