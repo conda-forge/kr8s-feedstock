@@ -1,5 +1,5 @@
 {% set name = "kr8s" %}
-{% set version = "0.8.3" %}
+{% set version = "0.8.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kr8s-{{ version }}.tar.gz
-  sha256: 682babc21794d2400089873b0761edc30d5c9e84ba721bcd05cf632e21da1f20
+  sha256: 3164480e8977e5b62a08c810fa0e991218c5a6376f2b3c862f274a93dfa7656c
 
 build:
   noarch: python
