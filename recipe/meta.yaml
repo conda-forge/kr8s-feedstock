@@ -28,6 +28,7 @@ requirements:
     - anyio >=3.7.0,<4.0.0
     - httpx >=0.24.1,<0.25.0
     - sniffio >=1.1
+    - python-box >=7,<8
 
 test:
   imports:
