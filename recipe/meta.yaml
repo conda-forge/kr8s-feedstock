@@ -1,5 +1,5 @@
 {% set name = "kr8s" %}
-{% set version = "0.8.12" %}
+{% set version = "0.8.16" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kr8s-{{ version }}.tar.gz
-  sha256: ac61894ec5f483b3b7e93e82c8686cfb8398d97bacec6e4cad71477ec2117161
+  sha256: 54081aa42632294f9fe342ba9f3fbba54b9936421dc184c28dcdf58e904664c2
 
 build:
   noarch: python
@@ -28,7 +28,7 @@ requirements:
     - anyio >=3.7.0,<4.0.0
     - httpx >=0.24.1,<0.25.0
     - sniffio >=1.1
-    - python-box >=7,<8
+    - python-box >=7.0.1,<8.0.0
 
 test:
   imports:
