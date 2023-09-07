@@ -38,6 +38,7 @@ test:
     - pip
 
 about:
+  home: https://kr8s.org
   summary: A Kubernetes API library
   license: BSD-3-Clause
   license_file: LICENSE
