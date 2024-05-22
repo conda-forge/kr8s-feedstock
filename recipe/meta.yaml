@@ -1,5 +1,5 @@
 {% set name = "kr8s" %}
-{% set version = "0.14.4" %}
+{% set version = "0.14.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kr8s-{{ version }}.tar.gz
-  sha256: d96fc937a14116511234c797ba92459bc691f7295acfc01ff84763e3f3aea094
+  sha256: 7fa79fd0b6cd2cb896ad24852c91667fee6b130b87930ad592776425ecf733b1
 
 build:
   noarch: python
@@ -27,7 +27,7 @@ requirements:
     - cryptography >=35
     - exceptiongroup >=1.2.0
     - httpx >=0.24.1
-    - httpx-ws >=0.5.1
+    - httpx-ws >=0.5.2
     - python-box >=7.0.1
     - python-jsonpath >=0.7.1
     - pyyaml >=6.0
