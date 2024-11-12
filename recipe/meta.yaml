@@ -1,5 +1,5 @@
 {% set name = "kr8s" %}
-{% set version = "0.18.0" %}
+{% set version = "0.18.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kr8s-{{ version }}.tar.gz
-  sha256: 00a1517bfe3b05d9c245885f08961d17e2fbd816c2e31f5ff910d5f3788393c0
+  sha256: 73c864c108e2f5159faab8dba9833011d586918f4520dfc64594df7b7907493f
 
 build:
   noarch: python
@@ -21,6 +21,7 @@ requirements:
     - hatch-vcs
     - pip
   run:
+    - typing_extensions >=4.12.2
     - python >=3.8
     - anyio >=3.7.0
     - asyncache >=0.3.1
